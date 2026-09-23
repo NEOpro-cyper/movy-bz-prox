@@ -11,8 +11,8 @@ const UPSTREAM_TIMEOUT = Number(process.env.UPSTREAM_TIMEOUT || 60000);
 
 // Built once at startup — zero per-request cost
 const SPOOFED_HEADERS = {
-  'Referer': 'https://cinejoy.pk/',
-  'Origin': 'https://cinejoy.pk',
+  'Referer': 'https://movy.sx/',
+  'Origin': 'https://movy.sx',
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36',
   'Accept': '*/*',
   'Accept-Language': 'en-US,en;q=0.9',
